@@ -1,0 +1,164 @@
+. {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(0, 255, 255, 0.6);
+    --secondary-color: #888888;
+}
+
+body {
+    margin: 0rem 0rem;
+    text-align: center;
+    align-items: center;
+}
+
+.background-img {
+    background-image: url("bg.svg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+
+}
+
+.sec-title {
+    background-color: var(--primary-color);
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 10px 5px var(--secondary-color);
+    max-width: 50vh;
+    margin: auto auto;
+}
+
+
+.sec-title h1 {
+    margin-bottom: 0;
+}
+
+.sec-title a {
+display: block;
+color: black;
+padding: 0.5rem 0 2rem;
+}
+
+body section {
+    min-height: 100vh;
+    max-width: 50vh;
+    margin: auto;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 2px var(--secondary-color);
+    text-align: center;
+}
+
+body .privacy-div {  width: fit-content;
+    padding: 0 1rem;
+    margin: 1rem auto 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border: 1px solid #b91c1c;
+    box-shadow: 0px 0px 10px 2px var(--secondary-color);
+}
+
+body .enter-txt p {
+    font-size: larger;
+}
+
+body section form label {
+    display: block;
+    margin: auto;
+    padding: 1rem 0rem;
+}
+
+body section form input {
+    display: block;
+    margin: auto;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 10px 2px var(--secondary-color);
+}
+
+body section form button {
+    display: block;
+    margin: 1rem auto;
+    color: white;
+    background-color: black;
+    border-radius: 2rem 2rem;
+    
+}
+
+
+
+
+/* 
+
+.navigation {
+    text-align: center;
+    background-color: var(--primary-color);
+    min-height: 3rem;
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+.navigation div {
+    text-align: center;
+    background-color: var(--primary-color);
+    min-height: 3rem;
+    width: 100%;
+    padding: 1rem 1rem;
+    color: white;
+    text-justify: auto;
+}
+
+.container {
+    width: 100%;
+    min-height: 10rem;
+    padding: 3rem 3rem;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container input {
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 10px 2px var(--secondary-color);
+}
+
+.container .warning {
+    color: red;
+    display: None;
+}
+
+.container li {
+    list-style-type: none;
+}
+
+
+.container li div{
+    display: inline;
+    min-width:  1rem;
+    padding: 0.5rem 0.5rem;
+    text-align: left;
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    min-height: 2rem;
+    width: 100%;
+}
+
+.footer div {
+    text-align: center;
+    background-color: var(--primary-color);
+    min-height: 3rem;
+    width: 100%;
+    padding: 1rem 1rem;
+    color: white;
+    text-justify: auto;
+} */
