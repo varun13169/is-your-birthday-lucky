@@ -14,13 +14,13 @@ body {
 }
 
 .background-img {
+    display: flex;
     background-image: url("bg.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     justify-content: center;
-
 }
 
 .sec-title {
@@ -78,8 +78,25 @@ body section form label {
 body section form input {
     display: block;
     margin: auto;
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     box-shadow: 0px 0px 10px 2px var(--secondary-color);
+}
+
+
+body section #verdict-label {
+    display: None;
+    font-size: larger;
+    font-weight: bold;
+}
+
+body section .verdict-img {
+    display: None;
+    background-image: url("bg.svg");
+    min-height: 20vh;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body section form button {
@@ -91,74 +108,8 @@ body section form button {
     
 }
 
-
-
-
-/* 
-
-.navigation {
-    text-align: center;
-    background-color: var(--primary-color);
-    min-height: 3rem;
-    width: 100%;
-    padding: 1rem 1rem;
-}
-
-.navigation div {
-    text-align: center;
-    background-color: var(--primary-color);
-    min-height: 3rem;
-    width: 100%;
-    padding: 1rem 1rem;
-    color: white;
-    text-justify: auto;
-}
-
-.container {
-    width: 100%;
-    min-height: 10rem;
-    padding: 3rem 3rem;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-}
-
-.container input {
-    display: block;
-    margin: auto;
+body section footer {
     box-shadow: 0px 0px 10px 2px var(--secondary-color);
+    padding: 0 0 1rem;
+    margin: 4rem auto;
 }
-
-.container .warning {
-    color: red;
-    display: None;
-}
-
-.container li {
-    list-style-type: none;
-}
-
-
-.container li div{
-    display: inline;
-    min-width:  1rem;
-    padding: 0.5rem 0.5rem;
-    text-align: left;
-}
-
-
-.footer {
-    background-color: var(--primary-color);
-    min-height: 2rem;
-    width: 100%;
-}
-
-.footer div {
-    text-align: center;
-    background-color: var(--primary-color);
-    min-height: 3rem;
-    width: 100%;
-    padding: 1rem 1rem;
-    color: white;
-    text-justify: auto;
-} */
