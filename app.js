@@ -7,7 +7,7 @@ const verdictImg = document.querySelector('.verdict-img');
 const luckyStr = 'Hurray!!You are a lucky person!';
 const unluckyStr = 'Oops!!Your birthday is not a lucky number!';
 
-cont onSubmitHandler = e => {
+const onSubmitHandler = e => {
     e.preventDefault();
     const bd = birthdateInp.value;
     const ln = luckyNumInp.value;
