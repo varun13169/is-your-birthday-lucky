@@ -1,16 +1,16 @@
-let luckyDobForm = document.querySelector('#lucky-dob-form');
-let birthdateInp = document.querySelector('#inp-birthdate');
-let luckyNumInp = document.querySelector('#inp-lucky-num');
-let verdictlabel = document.querySelector('#verdict-label');
-let verdictImg = document.querySelector('.verdict-img');
+const luckyDobForm = document.querySelector('#lucky-dob-form');
+const birthdateInp = document.querySelector('#inp-birthdate');
+const luckyNumInp = document.querySelector('#inp-lucky-num');
+const verdictlabel = document.querySelector('#verdict-label');
+const verdictImg = document.querySelector('.verdict-img');
 
-let luckyStr = 'Hurray!!You are a lucky person!';
-let unluckyStr = 'Oops!!Your birthday is not a lucky number!';
+const luckyStr = 'Hurray!!You are a lucky person!';
+const unluckyStr = 'Oops!!Your birthday is not a lucky number!';
 
-function onSubmitHandler(e) {
+cont onSubmitHandler = e => {
     e.preventDefault();
-    let bd = birthdateInp.value;
-    let ln = luckyNumInp.value;
+    const bd = birthdateInp.value;
+    const ln = luckyNumInp.value;
     
     let sumOfBdDigits = 0;
     for(let i=0; i < bd.length; i++) {
